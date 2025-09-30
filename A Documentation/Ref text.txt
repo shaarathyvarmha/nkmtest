@@ -1,0 +1,50 @@
+HTML5 → for the page structure (header, product cards, sections).
+
+CSS3 (sometimes with Sass/SCSS) → for styling, colors, layout, responsiveness.
+
+JavaScript (Vanilla JS) → for small interactive parts like sliders, dropdowns, cart popups.
+
+jQuery (optional, many templates still include it) → for quick DOM manipulation, animations, carousel plugins.
+
+Bootstrap (or another CSS framework) → for grid layout, responsive design, ready-made components.
+
+Icons & Fonts → Font Awesome, Google Fonts, etc.
+
+Optional extras:
+
+Owl Carousel / Slick Slider (JS plugins for sliders)
+
+Wow.js + Animate.css (scroll animations)
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+NKM WORK
+A Documentation
+ DOC.docx
+ Ref text.txt
+assets
+  CSS
+    main style.css
+  fonts
+  images
+  js
+    main script.js
+  plugins
+  pages
+<> main blog.html
+<> main contact.html
+<> main home.html
+<> page about.html
+<> page errorpage.html
+<> page faq.html
+<> page testimonial.html
+<> shop cart.html
+<> shop checkout.html
+<> shop Details.html
+<> shop wishlist.html
+
+
+
+
+https://html.onertheme.com/babymart/index.html

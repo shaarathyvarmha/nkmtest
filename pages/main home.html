@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Babymart - Baby Shop (Static Clone)</title>
+  <meta name="description" content="Babymart - Baby Shop HTML Template (static clone) built with only HTML, CSS, and vanilla JS." />
+  <link rel="preload" as="font" href="https://ext.same-assets.com/2429772009/2906716041.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://ext.same-assets.com/2429772009/3494380608.woff2" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/main-style.css" />
+
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container flex between center">
+      <p class="topbar-text">Babymart Flash Discount: Starting at 30% Off</p>
+      <nav class="topbar-links" aria-label="Utility">
+        <a href="#contact">Help</a>
+        <a href="#login">Login</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <a class="logo" href="#">
+        <img src="https://ext.same-assets.com/2429772009/2230306612.svg" alt="Babymart" width="148" height="36" />
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#flash-sale">Shop</a></li>
+          <li><a href="#categories">Pages</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="actions">
+        <button class="icon-btn wishlist-btn" aria-label="Wishlist">
+          <img src="https://ext.same-assets.com/2429772009/3862962068.svg" alt="Wishlist" width="20" height="20" />
+          <span class="badge wishlist-count" aria-label="wishlist count">3</span>
+        </button>
+        <button class="icon-btn cart-btn" aria-label="Cart">
+          <img src="https://ext.same-assets.com/2429772009/499904988.svg" alt="Cart" width="20" height="20" />
+          <span class="badge cart-count" aria-label="cart count">0</span>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-nav" aria-label="Mobile" hidden>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#flash-sale">Shop</a></li>
+        <li><a href="#categories">Pages</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <img class="hero-bg" src="https://ext.same-assets.com/2429772009/1168419818.png" alt="" aria-hidden="true" />
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">Up to 70% Off Our Products</span>
+          <h1>Buy Childrens Toys And Clothes</h1>
+          <p class="lead">An IT consultancy can help you assess your technology needs and develop a technology strategy that aligns with your business</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#flash-sale">Shop Now</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img class="hero-shape shape-1" src="https://ext.same-assets.com/2429772009/1240043522.png" alt="" aria-hidden="true" />
+          <img class="hero-shape shape-2" src="https://ext.same-assets.com/2429772009/448587319.png" alt="" aria-hidden="true" />
+          <img class="hero-img top" src="https://ext.same-assets.com/2429772009/2851521790.png" alt="Featured toy" />
+          <img class="hero-img bottom" src="https://ext.same-assets.com/2429772009/701951013.png" alt="Featured toy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+      <div class="container features-grid">
+        <article class="feature">
+          <img src="https://ext.same-assets.com/2429772009/3775214936.svg" alt="Return & refund" />
+          <div>
+            <h3>Return & refund</h3>
+            <p>Money back guarantee</p>
+          </div>
+        </article>
+        <article class="feature">
+          <img src="https://ext.same-assets.com/2429772009/836967203.svg" alt="Secure Payment" />
+          <div>
+            <h3>Secure Payment</h3>
+            <p>30% off by subscribing</p>
+          </div>
+        </article>
+        <article class="feature">
+          <img src="https://ext.same-assets.com/2429772009/2668254005.svg" alt="Quality Support" />
+          <div>
+            <h3>Quality Support</h3>
+            <p>Always online 24/7</p>
+          </div>
+        </article>
+        <article class="feature">
+          <img src="https://ext.same-assets.com/2429772009/3433934249.svg" alt="Daily Offers" />
+          <div>
+            <h3>Daily Offers</h3>
+            <p>20% off by subscribing</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Flash Sale -->
+    <section id="flash-sale" class="section">
+      <div class="container">
+        <div class="section-head between center v-center">
+          <h2>Flash Sale</h2>
+          <div class="countdown" data-days="92" aria-label="Sale countdown">
+            <div class="cd-item"><span class="num days">00</span><small>Days</small></div>
+            <div class="cd-item"><span class="num hours">00</span><small>Hrs</small></div>
+            <div class="cd-item"><span class="num minutes">00</span><small>Mins</small></div>
+            <div class="cd-item"><span class="num seconds">00</span><small>Secs</small></div>
+          </div>
+        </div>
+        <div class="product-grid">
+          <!-- Product 1 -->
+          <article class="product">
+            <div class="badge-group"><span class="pill hot">Hot</span><span class="pill off">-30%</span></div>
+            <button class="wish wishlist-toggle" aria-label="Add to wishlist">❤</button>
+            <a href="#" class="thumb">
+              <img src="https://ext.same-assets.com/2429772009/558135029.png" alt="White One-Piece Dress" />
+            </a>
+            <div class="info">
+              <h3 class="title"><a href="#">White One-Piece Dress</a></h3>
+              <div class="price"><span class="current">$19.00</span><s class="old">$26.99</s></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+          <!-- Product 2 -->
+          <article class="product">
+            <button class="wish wishlist-toggle" aria-label="Add to wishlist">❤</button>
+            <a href="#" class="thumb">
+              <img src="https://ext.same-assets.com/2429772009/2588046691.png" alt="Tinci Dunt Pharetra Soda" />
+            </a>
+            <div class="info">
+              <h3 class="title"><a href="#">Tinci Dunt Pharetra Soda</a></h3>
+              <div class="price"><span class="current">$10.00</span></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+          <!-- Product 3 -->
+          <article class="product">
+            <div class="badge-group"><span class="pill off">-29%</span></div>
+            <button class="wish wishlist-toggle" aria-label="Add to wishlist">❤</button>
+            <a href="#" class="thumb">
+              <img src="https://ext.same-assets.com/2429772009/3659816686.png" alt="The Playtime Excitement!" />
+            </a>
+            <div class="info">
+              <h3 class="title"><a href="#">The Playtime Excitement!</a></h3>
+              <div class="price"><span class="current">$50.00</span><s class="old">$39.99</s></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+          <!-- Product 4 -->
+          <article class="product">
+            <button class="wish wishlist-toggle" aria-label="Add to wishlist">❤</button>
+            <a href="#" class="thumb">
+              <img src="https://ext.same-assets.com/2429772009/2186711907.png" alt="Brown Lather Carriage" />
+            </a>
+            <div class="info">
+              <h3 class="title"><a href="#">Brown Lather Carriage</a></h3>
+              <div class="price"><span class="current">$49.00 - $57.00</span></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+          <!-- Product 5 -->
+          <article class="product">
+            <div class="badge-group"><span class="pill off">-17%</span></div>
+            <button class="wish wishlist-toggle" aria-label="Add to wishlist">❤</button>
+            <a href="#" class="thumb">
+              <img src="https://ext.same-assets.com/2429772009/923884653.png" alt="Ultricies At Torquent Dui" />
+            </a>
+            <div class="info">
+              <h3 class="title"><a href="#">Ultricies At Torquent Dui</a></h3>
+              <div class="price"><span class="current">$14.00</span><s class="old">$19.99</s></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+          <!-- Product 6 -->
+          <article class="product">
+            <div class="badge-group"><span class="pill hot">Hot</span><span class="pill off">-30%</span></div>
+            <button class="wish wishlist-toggle" aria-label="Add to wishlist">❤</button>
+            <a href="#" class="thumb">
+              <img src="https://ext.same-assets.com/2429772009/2698211267.png" alt="White One-Piece Dress" />
+            </a>
+            <div class="info">
+              <h3 class="title"><a href="#">White One-Piece Dress</a></h3>
+              <div class="price"><span class="current">$19.00</span><s class="old">$26.99</s></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+          <!-- Product 7 -->
+          <article class="product">
+            <button class="wish wishlist-toggle" aria-label="Add to wishlist">❤</button>
+            <a href="#" class="thumb">
+              <img src="https://ext.same-assets.com/2429772009/3410631603.png" alt="Tinci Dunt Pharetra Soda" />
+            </a>
+            <div class="info">
+              <h3 class="title"><a href="#">Tinci Dunt Pharetra Soda</a></h3>
+              <div class="price"><span class="current">$30.00</span></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+          <!-- Product 8 -->
+          <article class="product">
+            <div class="badge-group"><span class="pill off">-19%</span></div>
+            <button class="wish wishlist-toggle" aria-label="Add to wishlist">❤</button>
+            <a href="#" class="thumb">
+              <img src="https://ext.same-assets.com/2429772009/3659816686.png" alt="The Playtime Excitement!" />
+            </a>
+            <div class="info">
+              <h3 class="title"><a href="#">The Playtime Excitement!</a></h3>
+              <div class="price"><span class="current">$30.00</span><s class="old">$39.99</s></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop by Category -->
+    <section id="categories" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Shop by Category</h2>
+          <p class="muted">Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec at nulla nulla. Duis posuere ex lacus</p>
+        </div>
+        <div class="cat-grid">
+          <a class="cat" href="#"><img src="https://ext.same-assets.com/2429772009/3116639614.png" alt="Game And toy" /><span>Game And toy</span></a>
+          <a class="cat" href="#"><img src="https://ext.same-assets.com/2429772009/720268040.png" alt="Kid Books" /><span>Kid Books</span></a>
+          <a class="cat" href="#"><img src="https://ext.same-assets.com/2429772009/319145035.png" alt="Boy Clothing" /><span>Boy Clothing</span></a>
+          <a class="cat" href="#"><img src="https://ext.same-assets.com/2429772009/1728441752.png" alt="Girl Clothing" /><span>Girl Clothing</span></a>
+          <a class="cat" href="#"><img src="https://ext.same-assets.com/2429772009/4282869832.png" alt="Milk Bottle" /><span>Milk Bottle</span></a>
+          <a class="cat" href="#"><img src="https://ext.same-assets.com/2429772009/2242088116.png" alt="Indoor Play" /><span>Indoor Play</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trending Items -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Trending Items</h2>
+        </div>
+        <div class="product-grid">
+          <!-- Reuse 4 products -->
+          <article class="product">
+            <div class="badge-group"><span class="pill off">-19%</span></div>
+            <button class="wish wishlist-toggle" aria-label="Add to wishlist">❤</button>
+            <a href="#" class="thumb"><img src="https://ext.same-assets.com/2429772009/3659816686.png" alt="The Playtime Excitement!" /></a>
+            <div class="info">
+              <h3 class="title"><a href="#">The Playtime Excitement!</a></h3>
+              <div class="price"><span class="current">$30.00</span><s class="old">$39.99</s></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+          <article class="product">
+            <button class="wish wishlist-toggle" aria-label="Add to wishlist">❤</button>
+            <a href="#" class="thumb"><img src="https://ext.same-assets.com/2429772009/2186711907.png" alt="Brown Lather Carriage" /></a>
+            <div class="info">
+              <h3 class="title"><a href="#">Brown Lather Carriage</a></h3>
+              <div class="price"><span class="current">$19.00 - $27.00</span></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+          <article class="product">
+            <div class="badge-group"><span class="pill off">-12%</span></div>
+            <button class="wish wishlist-toggle" aria-label="Add to wishlist">❤</button>
+            <a href="#" class="thumb"><img src="https://ext.same-assets.com/2429772009/923884653.png" alt="Ultricies At Torquent Dui" /></a>
+            <div class="info">
+              <h3 class="title"><a href="#">Ultricies At Torquent Dui</a></h3>
+              <div class="price"><span class="current">$12.00</span><s class="old">$19.99</s></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+          <article class="product">
+            <div class="badge-group"><span class="pill hot">Hot</span><span class="pill off">-30%</span></div>
+            <button class="wish wishlist-toggle" aria-label="Add to wishlist">❤</button>
+            <a href="#" class="thumb"><img src="https://ext.same-assets.com/2429772009/2698211267.png" alt="White One-Piece Dress" /></a>
+            <div class="info">
+              <h3 class="title"><a href="#">White One-Piece Dress</a></h3>
+              <div class="price"><span class="current">$19.00</span><s class="old">$26.99</s></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop By Age -->
+    <section class="section age">
+      <div class="container">
+        <div class="section-head">
+          <h2>Shop By Age</h2>
+          <p class="muted">Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec at nulla nulla. Duis posuere ex lacus</p>
+        </div>
+        <div class="age-grid">
+          <a class="age-card" href="#"><img src="https://ext.same-assets.com/2429772009/2676811036.png" alt="0-2 Years" /><span>0-2 Years</span></a>
+          <a class="age-card" href="#"><img src="https://ext.same-assets.com/2429772009/2214221918.png" alt="3-4 Years" /><span>3-4 Years</span></a>
+          <a class="age-card" href="#"><img src="https://ext.same-assets.com/2429772009/4157413069.png" alt="4-7 Years" /><span>4-7 Years</span></a>
+          <a class="age-card" href="#"><img src="https://ext.same-assets.com/2429772009/2763188970.png" alt="7-10 Years" /><span>7-10 Years</span></a>
+          <a class="age-card" href="#"><img src="https://ext.same-assets.com/2429772009/2676811036.png" alt="0-2 Years" /><span>0-2 Years</span></a>
+          <a class="age-card" href="#"><img src="https://ext.same-assets.com/2429772009/2214221918.png" alt="12+ Years" /><span>12+ Years</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Rating -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head between center v-center">
+          <h2>Top Rating Items</h2>
+          <a class="link" href="#">View More</a>
+        </div>
+        <div class="product-grid small">
+          <article class="product">
+            <a href="#" class="thumb"><img src="https://ext.same-assets.com/2429772009/558135029.png" alt="Beige One-Piece Dress" /></a>
+            <div class="info">
+              <h3 class="title"><a href="#">Beige One-Piece Dress</a></h3>
+              <div class="price"><span class="current">$19.00</span><s class="old">$26.99</s></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+          <article class="product">
+            <a href="#" class="thumb"><img src="https://ext.same-assets.com/2429772009/3659816686.png" alt="Playtime Excitement!" /></a>
+            <div class="info">
+              <h3 class="title"><a href="#">Playtime Excitement!</a></h3>
+              <div class="price"><span class="current">$26.00</span><s class="old">$30.99</s></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+          <article class="product">
+            <a href="#" class="thumb"><img src="https://ext.same-assets.com/2429772009/923884653.png" alt="White One-Piece Dress" /></a>
+            <div class="info">
+              <h3 class="title"><a href="#">White One-Piece Dress</a></h3>
+              <div class="price"><span class="current">$15.00</span></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+          <article class="product">
+            <a href="#" class="thumb"><img src="https://ext.same-assets.com/2429772009/3410631603.png" alt="Tinci Dunt Pharetra Soda" /></a>
+            <div class="info">
+              <h3 class="title"><a href="#">Tinci Dunt Pharetra Soda</a></h3>
+              <div class="price"><span class="current">$12.00</span><s class="old">$19.99</s></div>
+              <button class="btn add-to-cart">Add To Cart</button>
+            </div>
+          </article>
+          <aside class="deal-card">
+            <p class="kicker">Best Toy for Kids</p>
+            <h3>Save up to 50%</h3>
+            <p class="muted">Shop the cutest toys at sweet prices.</p>
+            <a class="btn btn-outline" href="#">Shop Now</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Wide -->
+    <section class="cta">
+      <div class="container cta-inner">
+        <div class="cta-content">
+          <h2>Get 45% discount in all of <br/>Our super Toys</h2>
+          <a class="btn btn-primary" href="#">Shop Now</a>
+        </div>
+        <div class="cta-media">
+          <img src="https://ext.same-assets.com/2429772009/1592611316.png" alt="Kids playing" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Our Latest News & Articles</h2>
+          <p class="muted">Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec at nulla nulla. Duis posuere ex lacus</p>
+        </div>
+        <div class="blog-grid">
+          <article class="blog-card">
+            <a class="cover" href="#"><img src="https://ext.same-assets.com/2429772009/844455127.png" alt="Blog 1" /></a>
+            <div class="meta"><span>Activities</span><span>Feb 16, 2025</span></div>
+            <h3><a href="#">Montes suspendisse massa curae malesuada</a></h3>
+            <a class="link" href="#">Read More</a>
+          </article>
+          <article class="blog-card">
+            <a class="cover" href="#"><img src="https://ext.same-assets.com/2429772009/606629365.png" alt="Blog 2" /></a>
+            <div class="meta"><span>Activities</span><span>Mar 10, 2025</span></div>
+            <h3><a href="#">Playful Picks Paradise: Kids Essentials with Dash.</a></h3>
+            <a class="link" href="#">Read More</a>
+          </article>
+          <article class="blog-card">
+            <a class="cover" href="#"><img src="https://ext.same-assets.com/2429772009/1700135019.png" alt="Blog 3" /></a>
+            <div class="meta"><span>Activities</span><span>Jun 17, 2025</span></div>
+            <h3><a href="#">Tiny Emporium: Playful Picks for Kids Delightful Days.</a></h3>
+            <a class="link" href="#">Read More</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brands -->
+    <section class="brands">
+      <div class="container brands-row">
+        <img src="https://ext.same-assets.com/2429772009/1643800762.png" alt="Brand 1" />
+        <img src="https://ext.same-assets.com/2429772009/1754091160.png" alt="Brand 2" />
+        <img src="https://ext.same-assets.com/2429772009/1237111034.png" alt="Brand 3" />
+        <img src="https://ext.same-assets.com/2429772009/469997676.png" alt="Brand 4" />
+        <img src="https://ext.same-assets.com/2429772009/3365593122.png" alt="Brand 5" />
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="container footer-grid">
+      <section class="footer-col">
+        <a class="logo" href="#"><img src="https://ext.same-assets.com/2429772009/1622606751.svg" alt="Babymart" width="140" height="36" /></a>
+        <p>Malian Avenue, London SZ2 52H, United Kingdom</p>
+        <p><a href="tel:+2352569321586">+(235) 2569-321586</a> · <a href="tel:+2352569326254">+(235) 2569-326254</a></p>
+        <p><a href="mailto:help24/7@babymart.com">help24/7@babymart.com</a></p>
+        <div class="socials">
+          <a href="https://www.facebook.com/" aria-label="Facebook">Fb</a>
+          <a href="https://www.twitter.com/" aria-label="Twitter">Tw</a>
+          <a href="https://www.linkedin.com/" aria-label="LinkedIn">In</a>
+          <a href="https://www.whatsapp.com/" aria-label="WhatsApp">Wa</a>
+        </div>
+      </section>
+      <section class="footer-col">
+        <h4>Company</h4>
+        <ul class="list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Faq</a></li>
+          <li><a href="#">Testimonial</a></li>
+          <li><a href="#">Error Page</a></li>
+        </ul>
+      </section>
+      <section class="footer-col">
+        <h4>Shop</h4>
+        <ul class="list">
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Shop Details</a></li>
+          <li><a href="#">Cart</a></li>
+          <li><a href="#">Checkout</a></li>
+          <li><a href="#">Wishlist</a></li>
+        </ul>
+      </section>
+      <section class="footer-col">
+        <h4>Newsletter</h4>
+        <p>Sign up to searing weekly newsletter to get the latest updates from us.</p>
+        <form class="newsletter" action="#" onsubmit="return false;">
+          <input type="email" required placeholder="Enter your email" aria-label="Email" />
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </form>
+      </section>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2025 Babymart. All Rights Reserved.</p>
+      <img class="payments" src="https://ext.same-assets.com/2429772009/1713128621.svg" alt="Payments" />
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
